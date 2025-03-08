@@ -3,6 +3,15 @@ const listContainer = document.getElementById('list-container');
 
 gsap.to('.todo-app', { y: 200, duration: 1 });
 
+gsap.to('.todo-app-list', { y: 400, duration: 1 });
+
+
+
+inputBox.addEventListener('keyup', function (event) {
+    if (event.key === 'Enter') {
+        addTask();
+    }
+});
 
 function addTask() {
     if (inputBox.value === '') {

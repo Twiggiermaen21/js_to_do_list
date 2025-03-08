@@ -27,6 +27,18 @@
 
 }
 
+.todo-app-list {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: -200px auto 20px;
+    padding: 40px 30px 20px;
+    border-radius: 10px;
+    z-index: 1;
+
+}
+
+
 .todo-app-header {
     width: 100%;
     max-width: 540px;
