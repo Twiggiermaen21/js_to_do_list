@@ -6,9 +6,6 @@
     position: relative;
 }
 
-
-
-
 .container {
     width: 100%;
     min-height: 100vh;
@@ -27,16 +24,6 @@
 
 }
 
-.todo-app-list {
-    width: 100%;
-    max-width: 540px;
-    background: #fff;
-    margin: 20px auto 20px;
-    padding: 20px 30px 20px;
-    border-radius: 10px;
-    z-index: 1;
-
-}
 
 
 .todo-app-header {
@@ -44,7 +31,7 @@
     max-width: 540px;
     background: #fff;
     margin: 300px auto 20px;
-    padding: 40px 30px 70px;
+    padding: 40px 30px 40px;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
@@ -84,6 +71,7 @@ input {
     outline: none;
     background: transparent;
     padding: 10px;
+    font-weight: 14px;
 }
 
 button {
