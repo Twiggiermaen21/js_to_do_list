@@ -20,10 +20,10 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: -200px auto 20px;
+    margin: 20px auto 20px;
     padding: 40px 30px 20px;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 2;
 
 }
 
@@ -31,8 +31,8 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: -200px auto 20px;
-    padding: 40px 30px 20px;
+    margin: 20px auto 20px;
+    padding: 20px 30px 20px;
     border-radius: 10px;
     z-index: 1;
 
@@ -43,13 +43,13 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 20px;
+    margin: 300px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
 }
 
 .todo-app-header h2 {
